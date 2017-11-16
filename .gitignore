@@ -1,0 +1,19 @@
+!.gitignore
+!wp-content
+
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+
+
+# Ignore le contenu de "plugins" sauf le dossier de NOTRE plugin personnalisé
+# (la ligne ! sera à répêter pour chaque plugin à commiter...)
+wp-content/plugins/*
+!wp-content/plugins/contact-form-7/
+!wp-content/plugins/contact-form-7-style/
+!wp-content/plugins/wordpress-seo/
+
+
+wp-content/themes/*
+!wp-content/themes/Divi/
+!wp-content/themes/themeEnfant/
