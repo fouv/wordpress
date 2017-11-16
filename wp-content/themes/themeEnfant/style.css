@@ -1,0 +1,147 @@
+/*
+Theme Bale: Divi Child
+Description: Theme enfant pour Divi
+Author: Le nom de l'auteur
+Template: Divi
+*/
+
+@import url("../Divi/style.css");
+
+#et-info {
+    float: right;
+}
+/*-----------------Menu Icons---------------- */
+#top-menu li {
+    padding-right: 10px;
+    }
+
+.nav li {
+    /* position: relative; */
+    line-height: 0;
+}
+#top-menu, #top-menu-nav {
+    line-height: 0;
+}
+
+.menu-home:before {
+    font-family: 'ETmodules';
+    content: "\e074";
+    margin-right: 60px;
+    margin-left: -30px;
+    margin-top: -2px;
+    color: #ffffff;
+    font-size: 18px;
+    float: left;
+}
+ 
+.menu-home {
+    width: 130px;
+}
+ 
+ 
+.menu-services:before {
+    font-family: 'ETmodules';
+    content: "\e035";
+    margin-left: -22px;
+    margin-right: 14px;
+    margin-top: 13px;
+    color: #ffffff;
+    font-size: 18px;
+    float: left;
+}
+
+ 
+.menu-services {
+    width: 160px !important;
+}
+
+#et-secondary-nav .menu-item-has-children>a:first-child:after, #top-menu .menu-item-has-children>a:first-child:after {
+    margin-top: 13px;
+	margin-left:5px;
+    
+
+}
+ 
+.menu-formules:before {
+    font-family: 'ETmodules';
+    content: "\e008";    
+    margin-right: 10px;
+    margin-left:-22px;
+    margin-top: 13px;
+    color: #ffffff;
+    font-size: 18px;
+    float: left;
+}
+ 
+.menu-formules {
+    width: 145px;
+    margin-left:20px;
+}
+ 
+.menu-engagements:before {
+    font-family: 'ETmodules';
+    content: "\e021";
+    margin-right: 10px;
+    margin-left:-22px;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 18px;
+    float: left;
+}
+ 
+.menu-engagements {
+    width: 210px;
+}
+ 
+.menu-contact:before {
+    font-family: 'ETmodules';
+    content: "\e010";
+    margin-right: 10px;
+    margin-left:-25px;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 18px;
+    float: left;
+}
+ 
+.menu-contact {
+    width: 180px;
+    padding-left:20px;
+}
+ 
+@media only screen and (max-width: 980px) {
+     
+    .menu-home:before {
+        margin-top: 10px;
+	margin-left:-10px;
+        color: #000000;
+    }
+     
+    .menu-services:before {
+       display:none;
+    }
+ 
+    .menu-formules:before {
+         display:none;
+    }
+     
+    .menu-engagements:before {
+         display:none;
+    }
+     
+    .menu-contact:before {
+         display:none;
+    }
+     
+}
+#et_search_icon:before {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    font-size: 17px;
+    content: "\55";
+}
+
+
+
+
